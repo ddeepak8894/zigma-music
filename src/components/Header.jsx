@@ -24,7 +24,7 @@ export default function Header() {
     >
       <Container>
         <Navbar.Brand href="#home" className="d-flex align-items-center gap-2">
-          <span style={{ fontSize: '1.8rem' }}>🕉</span>
+          <img src="/zigma-music/logo.jpg" alt="Zigma Music" style={{ width: 44, height: 44, borderRadius: 10, objectFit: 'cover' }} />
           <div>
             <div style={{ color: '#fff', fontWeight: 800, lineHeight: 1.1, fontSize: '1.1rem' }}>
               Zigma Music

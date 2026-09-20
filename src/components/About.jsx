@@ -15,7 +15,9 @@ export default function About() {
       <Container>
         <Row className="align-items-center g-5">
           <Col lg={5} className="text-center">
-            <div className="about-icon-box">🕉</div>
+            <div className="about-icon-box">
+              <img src="/zigma-music/logo.jpg" alt="Zigma Music" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} />
+            </div>
             <div className="mt-4 d-flex justify-content-center gap-3">
               <a href="https://www.youtube.com/@zigmaMusicbhakti" target="_blank" rel="noreferrer" className="btn btn-saffron btn-sm">
                 Bhakti Channel
