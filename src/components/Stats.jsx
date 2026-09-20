@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 const STATS = [
   { icon: '▶', num: 'Growing', label: 'Subscribers' },
   { icon: '🎵', num: '100+', label: 'Songs' },
-  { icon: '🕉', num: '2', label: 'Channels' },
+  { icon: '🕉', num: '3', label: 'Channels' },
   { icon: '❤️', num: 'Millions', label: 'Listeners' },
 ];
 

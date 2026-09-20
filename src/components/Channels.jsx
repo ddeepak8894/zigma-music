@@ -23,6 +23,17 @@ const CHANNELS = [
     tags: ['Marathi', 'Lavani', 'Folk', 'Traditional'],
     embedSrc: 'https://www.youtube.com/embed/E2Gsw9uNMcM?rel=0',
   },
+  {
+    id: 'india',
+    name: 'Zigma Music India',
+    handle: '@zigmamusicindia',
+    url: 'https://www.youtube.com/@zigmamusicindia',
+    description: 'Pan-India music featuring Hindi, folk, and regional songs celebrating the diverse musical culture of India.',
+    icon: '🎸',
+    headerBg: 'linear-gradient(135deg, #1a6b1a, #0d4a0d)',
+    tags: ['Hindi', 'Folk', 'Regional', 'India'],
+    embedSrc: 'https://www.youtube.com/embed/NTjpag3YdcA?rel=0',
+  },
 ];
 
 export default function Channels() {
@@ -39,7 +50,7 @@ export default function Channels() {
 
         <Row className="g-4">
           {CHANNELS.map(ch => (
-            <Col key={ch.id} lg={6}>
+            <Col key={ch.id} lg={4} md={6}>
               <div className="channel-card h-100">
                 {/* Card header */}
                 <div className="channel-header" style={{ background: ch.headerBg }}>

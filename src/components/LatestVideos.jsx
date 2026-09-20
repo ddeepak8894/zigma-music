@@ -3,10 +3,10 @@ import { Container, Row, Col } from 'react-bootstrap';
 const VIDEOS = [
   { id: 'aCKavsxqkYQ', channel: 'Bhakti', color: '#FF6B35' },
   { id: 'E2Gsw9uNMcM', channel: 'Marathi', color: '#8B0000' },
+  { id: 'NTjpag3YdcA', channel: 'India', color: '#1a6b1a' },
   { id: 'kHnF_OrlFsg', channel: 'Bhakti', color: '#FF6B35' },
   { id: 'ghvb-ri8tW0', channel: 'Marathi', color: '#8B0000' },
-  { id: 'W5mt5qB80cA', channel: 'Bhakti', color: '#FF6B35' },
-  { id: 'Eu-07_Yw7Tg', channel: 'Marathi', color: '#8B0000' },
+  { id: 'xfdKZWPjRz0', channel: 'India', color: '#1a6b1a' },
 ];
 
 export default function LatestVideos() {
@@ -45,10 +45,13 @@ export default function LatestVideos() {
 
         <div className="text-center mt-5 d-flex justify-content-center gap-3 flex-wrap">
           <a href="https://www.youtube.com/@zigmaMusicbhakti" target="_blank" rel="noreferrer" className="btn btn-saffron">
-            ▶ Bhakti Channel
+            ▶ Bhakti
           </a>
           <a href="https://www.youtube.com/@ZigmaMusicMarathi" target="_blank" rel="noreferrer" className="btn btn-yt">
-            ▶ Marathi Channel
+            ▶ Marathi
+          </a>
+          <a href="https://www.youtube.com/@zigmamusicindia" target="_blank" rel="noreferrer" className="btn" style={{ background: '#1a6b1a', color: '#fff', borderRadius: 50 }}>
+            ▶ India
           </a>
         </div>
       </Container>
