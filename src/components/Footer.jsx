@@ -7,7 +7,7 @@ export default function Footer() {
         <Row className="align-items-start g-4 mb-4">
           <Col md={4}>
             <div className="d-flex align-items-center gap-2 mb-2">
-              <img src="/zigma-music/logo.jpg" alt="Zigma Music" style={{ width: 48, height: 48, objectFit: 'contain' }} />
+              <img src="/logo.jpg" alt="Zigma Music" style={{ width: 48, height: 48, objectFit: 'contain' }} />
               <div>
                 <div className="footer-brand">Zigma <span>Music</span></div>
                 <div style={{ color: '#FFD700', fontSize: '0.65rem', letterSpacing: '1.5px' }}>PRODUCTION PVT LTD</div>
