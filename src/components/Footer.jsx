@@ -10,11 +10,11 @@ export default function Footer() {
               <span style={{ fontSize: '1.8rem' }}>🕉</span>
               <div>
                 <div className="footer-brand">Zigma <span>Music</span></div>
-                <div style={{ color: '#FFD700', fontSize: '0.65rem', letterSpacing: '1.5px' }}>BHAKTI & MARATHI</div>
+                <div style={{ color: '#FFD700', fontSize: '0.65rem', letterSpacing: '1.5px' }}>PRODUCTION PVT LTD</div>
               </div>
             </div>
             <p style={{ fontSize: '0.85rem', color: 'rgba(255,255,255,0.55)', maxWidth: 260 }}>
-              Spreading devotion through divine music — bhakti and Marathi music for every soul.
+              India's premier devotional &amp; Marathi music label — spreading divine music for every soul.
             </p>
           </Col>
 
@@ -46,7 +46,7 @@ export default function Footer() {
         <hr style={{ borderColor: 'rgba(255,255,255,0.1)', margin: '20px 0' }} />
 
         <div className="text-center" style={{ color: 'rgba(255,255,255,0.4)', fontSize: '0.82rem' }}>
-          © {new Date().getFullYear()} Zigma Music. All rights reserved.
+          © {new Date().getFullYear()} Zigma Music Production Pvt Ltd. All rights reserved.
         </div>
       </Container>
     </footer>

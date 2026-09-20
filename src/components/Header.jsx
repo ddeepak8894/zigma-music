@@ -30,7 +30,7 @@ export default function Header() {
               Zigma Music
             </div>
             <div style={{ color: '#FFD700', fontSize: '0.65rem', letterSpacing: '1.5px', textTransform: 'uppercase' }}>
-              Bhakti & Marathi
+              Production Pvt Ltd
             </div>
           </div>
         </Navbar.Brand>

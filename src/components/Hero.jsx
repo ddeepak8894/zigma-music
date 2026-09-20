@@ -9,11 +9,11 @@ export default function Hero() {
           <Col lg={5}>
             <h1 className="hero-title mb-4">
               Zigma Music <br />
-              <span>Bhakti &amp; Marathi</span>
+              <span>Production Pvt Ltd</span>
             </h1>
             <p className="hero-lead mb-4">
-              Immerse yourself in the divine sounds of bhakti and the soulful melodies
-              of Marathi music. Connecting hearts to the divine through music.
+              India's premier devotional &amp; Marathi music label. Spreading the divine
+              sounds of bhakti and the soulful melodies of Marathi music across the world.
             </p>
             <div className="d-flex gap-3 flex-wrap">
               <a href="#latest" className="btn btn-saffron">Latest Releases</a>

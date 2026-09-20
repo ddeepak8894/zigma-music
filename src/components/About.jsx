@@ -29,12 +29,13 @@ export default function About() {
           <Col lg={7}>
             <span className="section-tag">About Us</span>
             <h2 className="fw-bold mt-2 mb-3" style={{ fontSize: '2.2rem', color: '#fff' }}>
-              Spreading <span style={{ color: '#FF6B35' }}>Devotion</span> Through Music
+              About <span style={{ color: '#FF6B35' }}>Zigma Music Production Pvt Ltd</span>
             </h2>
             <p style={{ color: 'rgba(255,255,255,0.75)', lineHeight: 1.8 }} className="mb-3">
-              Zigma Music is a dedicated music label with two YouTube channels — one for
-              bhakti devotional music and one for soulful Marathi music. Our mission is to
-              spread divine vibrations and celebrate Maharashtra's rich musical heritage.
+              Zigma Music Production Pvt Ltd is India's dedicated music production company
+              with two YouTube channels — one for bhakti devotional music and one for soulful
+              Marathi music. Our mission is to spread divine vibrations and celebrate
+              Maharashtra's rich musical heritage.
             </p>
             <p style={{ color: 'rgba(255,255,255,0.75)', lineHeight: 1.8 }} className="mb-4">
               We release original compositions, traditional aarti, and devotional songs
