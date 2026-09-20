@@ -52,7 +52,7 @@ export default function Contact() {
                 <div className="contact-info-icon">✉</div>
                 <div>
                   <div style={{ fontWeight: 700, color: '#1a0800', fontSize: '0.9rem' }}>Email</div>
-                  <span style={{ color: '#666', fontSize: '0.85rem' }}>contact@zigmamusic.com</span>
+                  <a href="mailto:zigmabusiness1@gmail.com" style={{ color: '#FF6B35', fontSize: '0.85rem', textDecoration: 'none' }}>zigmabusiness1@gmail.com</a>
                 </div>
               </div>
             </div>
