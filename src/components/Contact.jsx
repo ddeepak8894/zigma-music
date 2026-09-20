@@ -4,11 +4,19 @@ import { Container, Row, Col } from 'react-bootstrap';
 export default function Contact() {
   const [form, setForm] = useState({ name: '', email: '', subject: '', message: '' });
   const [sent, setSent] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   const handle = e => setForm({ ...form, [e.target.name]: e.target.value });
 
-  const submit = e => {
+  const submit = async e => {
     e.preventDefault();
+    setLoading(true);
+    await fetch('https://formspree.io/f/xkjgorrk', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+      body: JSON.stringify(form),
+    });
+    setLoading(false);
     setSent(true);
     setForm({ name: '', email: '', subject: '', message: '' });
   };
@@ -88,8 +96,8 @@ export default function Contact() {
                         className="contact-input" placeholder="Your Message" required />
                     </Col>
                     <Col sm={12}>
-                      <button type="submit" className="btn btn-saffron w-100">
-                        Send Message ✈
+                      <button type="submit" className="btn btn-saffron w-100" disabled={loading}>
+                        {loading ? 'Sending...' : 'Send Message ✈'}
                       </button>
                     </Col>
                   </Row>
