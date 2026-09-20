@@ -7,9 +7,6 @@ export default function Hero() {
         <Row className="align-items-center g-5">
           {/* Left: text */}
           <Col lg={5}>
-            <div className="mb-3">
-              <span className="hero-badge">🎵 Devotional &amp; Marathi Music</span>
-            </div>
             <h1 className="hero-title mb-4">
               Zigma Music <br />
               <span>Bhakti &amp; Marathi</span>
